@@ -1,4 +1,4 @@
-Pokédex Interactif – Version 2.0
+Pokédex Interactif – V1.0
 <br>
 
 <img src="imgPokedex.png" width="150"/> 
