@@ -17,6 +17,8 @@ Recherche par nom français ou ID : Saisie intuitive avec autocomplétion et sug
 -Galerie interactive : Affichage de cartes Pokémon par lots de 20, avec chargement progressif et navigation fluide.<br>
 -Interface réactive : Design responsive avec effets visuels et transitions pour une expérience utilisateur optimale.<br>
 
+ Envie d'essayer? https://alx-370.github.io/Projet-formation-PokedexV1/
+
 ## 🛠️Compérences :
 
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
