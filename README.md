@@ -9,7 +9,7 @@ Pokédex Interactif – Version 2.0
   en intégrant des fonctionnalités avancées telles que l'autocomplétion, 
   l'affichage dynamique des données et l'interaction avec une API externe. </p>
   
-🔍 Fonctionnalités principales :
+ Fonctionnalités principales :
 Recherche par nom français ou ID : Saisie intuitive avec autocomplétion et suggestions visuelles.
 
 Affichage détaillé : Informations complètes sur chaque Pokémon, y compris les types, tailles, poids et statistiques.
