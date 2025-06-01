@@ -1,0 +1,253 @@
+* {
+    padding: 3px;
+    margin: 2px;
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #D32F2F 0%, #000000 50%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.coinRecherche{
+    border-radius: 6px ;
+    box-shadow: 0 4px 20px 20px rgba(0, 0, 0, 0.2);
+    background-color: #B71C1C;
+}
+
+h1{
+    font-size: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 220px;
+    border: none;
+    border-radius: 6px ;
+
+
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#result img {
+    width: 200px;
+    height: 200px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#result {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    padding: 20px;
+    text-align: center;
+}
+
+.types-container {
+    margin-top: 5px;
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+}
+
+.shiny-button {
+    margin: 12px 0;
+    padding: 8px 14px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.shiny-button:hover {
+    background-color: orange;
+}
+
+/* Couleurs par type */
+.type-normal {
+    background-color: #A8A77A;
+}
+
+.type-fire {
+    background-color: #EE8130;
+}
+
+.type-water {
+    background-color: #6390F0;
+}
+
+.type-electric {
+    background-color: #F7D02C;
+}
+
+.type-grass {
+    background-color: #7AC74C;
+}
+
+.type-ice {
+    background-color: #96D9D6;
+}
+
+.type-fighting {
+    background-color: #C22E28;
+}
+
+.type-poison {
+    background-color: #A33EA1;
+}
+
+.type-ground {
+    background-color: #E2BF65;
+}
+
+.type-flying {
+    background-color: #A98FF3;
+}
+
+.type-psychic {
+    background-color: #F95587;
+}
+
+.type-bug {
+    background-color: #A6B91A;
+}
+
+.type-rock {
+    background-color: #B6A136;
+}
+
+.type-ghost {
+    background-color: #735797;
+}
+
+.type-dragon {
+    background-color: #6F35FC;
+}
+
+.type-dark {
+    background-color: #705746;
+}
+
+.type-steel {
+    background-color: #B7B7CE;
+}
+
+.type-fairy {
+    background-color: #D685AD;
+}
+
+/*/////////*/
+.autocomplete-list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 220px;
+    z-index: 1000;
+}
+
+.autocomplete-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.autocomplete-item img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+.autocomplete-item:hover {
+    background-color: #eeeeee83;
+}
+
+img.pokemon-image {
+    transition: opacity 0.3s ease-in-out;
+    width: 200px;
+    height: auto;
+}
+
+img.pokemon-image.fade {
+    opacity: 0.2;
+}
+
+/*////////*/
+#gallerySection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pokemon-card {
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    background: linear-gradient(to bottom, #D32F2F 0%, #000000 50%, #FFFFFF 100%);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
