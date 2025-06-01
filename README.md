@@ -10,8 +10,8 @@ Pokédex Interactif – V1.0
   l'affichage dynamique des données et l'interaction avec une API externe. </p>
   
  🔍Fonctionnalités principales :
-Recherche par nom français ou ID : Saisie intuitive avec autocomplétion et suggestions visuelles.<br>
-
+ <br>
+-Recherche par nom français ou ID : Saisie intuitive avec autocomplétion et suggestions visuelles.<br>
 -Affichage détaillé : Informations complètes sur chaque Pokémon, y compris les types, tailles, poids et statistiques.<br>
 -Sprites dynamiques : Visualisation des sprites statiques et animés, avec possibilité de basculer entre les versions normales et shiny.<br>
 -Galerie interactive : Affichage de cartes Pokémon par lots de 20, avec chargement progressif et navigation fluide.<br>
