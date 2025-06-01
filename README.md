@@ -1,5 +1,9 @@
 Pokédex Interactif – Version 2.0
+<br>
+
 <img src="imgPokedex.png" width="150"/> 
+
+
 <p> Dans le cadre de ma formation, j'ai développé une version améliorée de mon Pokédex. 
   Ce projet m'a permis de mettre en pratique mes compétences en HTML, CSS et JavaScript, 
   en intégrant des fonctionnalités avancées telles que l'autocomplétion, 
